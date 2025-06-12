@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.inactiveRegionOpacity": 0.55,
+    "C_Cpp.formatting": "vcFormat",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "files.exclude": {
+        "**/*.o": true,
+        "**/main": true,
+        "**/main_*": true,
+        "**/.DS_Store": true
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100 }",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+    "C_Cpp.experimentalFeatures": "enabled",
+    "C_Cpp.buildSystem": "disabled"
+} 

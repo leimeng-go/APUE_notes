@@ -1,0 +1,20 @@
+[
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Build APUE Main",
+        "when": "resourceExtname == .c"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Build and Run",
+        "when": "resourceExtname == .c"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run APUE",
+        "when": "resourceExtname == .c"
+    }
+] 
